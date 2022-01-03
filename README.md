@@ -5,7 +5,7 @@ touch article.txt
 
   ```echo "This Is a Plain Text Which Is Converted into Cipher Text Using Subtitution" > article.txt```
 
-![alt tag](https://github.com/Waleed-gif/Secret-Key-Encryption-Lab/blob/main/task1a.PNG) 
+![alt tag](task1a.PNG) 
 
   ```tr [:upper:] [:lower:] < article.txt > lowercase.txt
   tr -cd ’[a-z][\n][:space:]’ < lowercase.txt > plaintext.txt```
